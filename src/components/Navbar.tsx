@@ -10,7 +10,7 @@ import {
 
 export default function Navbar(){ 
     return(
-      <div className="flex justify-between m-4 items-center">
+      <div className="flex justify-between m-4 items-center mx-8">
         <div>
         <span className="font-semibold bg-[#E7E7E7] p-3 text-[#DC4A2D] text-md">Logo</span>
         </div>

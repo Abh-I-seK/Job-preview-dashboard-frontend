@@ -16,7 +16,7 @@ export default function SideBar(){
           <span className="cols-span-1 flex gap-2 font-normal px-5 text-[#4F4F4F] py-5 pb-2 pt-2"><MessageSquare className="w-4"/>Messages</span>
           <span className="cols-span-1 text-right font-bold px-5 text-[#3D3D3D] py-5 pb-2 pt-2">147</span>
           <DropdownMenuSeparator className="col-span-2 h-[2px] mx-3"/>
-          <span className="cols-span-1 flex gap-2 font-normal px-5 text-[#4F4F4F] py-5 pb-2 pt-2"><Eye className="w-4"/>Messages</span>
+          <span className="cols-span-1 flex gap-2 font-normal px-5 text-[#4F4F4F] py-5 pb-2 pt-2"><Eye className="w-4"/>Views</span>
           <span className="cols-span-1 text-right font-bold px-5 text-[#3D3D3D] py-5 pb-2 pt-2">800</span>
         </div>
       </div>

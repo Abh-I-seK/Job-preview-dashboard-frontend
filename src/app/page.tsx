@@ -9,14 +9,16 @@ export default function Home() {
     <div>
       <Navbar/>
       <DropdownMenuSeparator className="h-[3px]"/>
-      <ButtonSection/>
-      <DropdownMenuSeparator className="h-[2px] my-0"/>
-      <div className="grid grid-cols-4">
-        <div className="col-span-3">
-          <JobSection/>
-          <FooterSection/>
+      <div className="px-6">
+        <ButtonSection/>
+        <DropdownMenuSeparator className="h-[2px] my-0"/>
+        <div className="grid grid-cols-4">
+          <div className="col-span-3">
+            <JobSection/>
+            <FooterSection/>
+          </div>
+          <SideBar/>
         </div>
-        <SideBar/>
       </div>
     </div>
   );

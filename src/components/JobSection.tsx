@@ -7,7 +7,7 @@ export default function JobSection(){
     return(
     <div className="p-3">
       <div className="flex gap-2 p-5 pb-6">
-        <h1 className="font-bold text-2xl">Senior Product Designer</h1>
+        <h1 className="font-bold text-3xl">Senior Product Designer</h1>
         <div className="flex gap-2 items-top">
           <span className="text-[#D1D1D1]"><DotIcon/></span>
           <span className="text-[#888888] text-sm">posted 2 days ago</span>
@@ -22,6 +22,8 @@ export default function JobSection(){
         <span className="flex gap-2 text-[#5D5D5D] text-md"><Database/>$300k-$400k</span>
       </div>
       
+      <DropdownMenuSeparator className="h-[2px]"/>
+
       <DetailsSection/>
   
       <DropdownMenuSeparator className="h-[2px]"/>
